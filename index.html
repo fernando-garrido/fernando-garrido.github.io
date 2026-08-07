@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDPlayer - Seu Streaming Pessoal do Google Drive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 0;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+        }
+        
+        .tagline {
+            font-size: 24px;
+            color: #a0a0a0;
+            margin-bottom: 40px;
+        }
+        
+        .app-description {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .app-description h2 {
+            color: #e94560;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .app-description p {
+            color: #d0d0d0;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .feature {
+            background: rgba(233, 69, 96, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(233, 69, 96, 0.3);
+        }
+        
+        .feature h3 {
+            color: #e94560;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .feature p {
+            color: #b0b0b0;
+            font-size: 14px;
+        }
+        
+        .links {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .links a {
+            display: inline-block;
+            margin: 10px 15px;
+            padding: 15px 30px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .links a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(233, 69, 96, 0.4);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #606060;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        footer a {
+            color: #e94560;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">GDPlayer</div>
+            <p class="tagline">Seu Streaming Pessoal do Google Drive</p>
+        </header>
+        
+        <section class="app-description">
+            <h2>Sobre o GDPlayer</h2>
+            <p>
+                O <strong>GDPlayer</strong> é um aplicativo Android que permite transformar seu Google Drive em um player de músicas pessoal. 
+                Com ele, você pode acessar suas músicas armazenadas no Google Drive e ouvi-las como se fossem um streaming local.
+            </p>
+            <p>
+                Suas músicas ficam seguras no seu Google Drive, e você pode acessá-las de qualquer dispositivo Android 
+                sem precisar transferir arquivos ou ocupar espaço no celular.
+            </p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>🎵 Streaming Direto</h3>
+                    <p>Ouça suas músicas diretamente do Google Drive sem precisar baixar.</p>
+                </div>
+                <div class="feature">
+                    <h3>📁 Organização</h3>
+                    <p>Crie e gerencie playlists para organizar suas músicas.</p>
+                </div>
+                <div class="feature">
+                    <h3>🔒 Seguro</h3>
+                    <p>Suas músicas ficam no seu Google Drive, com total controle de acesso.</p>
+                </div>
+                <div class="feature">
+                    <h3>📱 Offline</h3>
+                    <p>Ouça suas músicas mesmo sem conexão com a internet.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="links">
+            <a href="https://docs.google.com/document/d/1c08rMbv0pl0QyR-yqCd0vPlGL7NpvmYtSjOGq-RMvHU/edit?usp=drive_link" target="_blank">
+                📄 Política de Privacidade
+            </a>
+            <a href="https://docs.google.com/document/d/1c08rMbv0pl0QyR-yqCd0vPlGL7NpvmYtSjOGq-RMvHU/edit?usp=drive_link" target="_blank">
+                📋 Termos de Serviço
+            </a>
+        </section>
+        
+        <footer>
+            <p>© 2024 GDPlayer. Todos os direitos reservados.</p>
+            <p style="margin-top: 10px;">
+                Desenvolvido com ❤️ para a comunidade de música
+            </p>
+            <p style="margin-top: 20px;">
+                <a href="mailto:seu-email@gmail.com">Contato: seu-email@gmail.com</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
